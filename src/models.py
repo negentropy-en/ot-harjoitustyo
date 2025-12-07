@@ -1,3 +1,5 @@
+"""Data models for BG3 characters; ability scores and character details."""
+
 from dataclasses import dataclass, asdict, field
 from uuid import uuid4  # For generating unique IDs for characters
 

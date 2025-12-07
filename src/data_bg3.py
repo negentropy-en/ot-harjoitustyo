@@ -1,3 +1,5 @@
+"""Static data for BG3 character generation; races, classes, backgrounds, skills and feats."""
+
 ORIGINS = [
     "Custom",
     "Astarion",
@@ -39,18 +41,46 @@ CLASSES = [
 ]
 
 SUBCLASSES_BY_CLASS = {
-    "Barbarian": ["Berserker", "Wildheart", "Wild Magic", "Path of Giants"],
-    "Bard": ["College of Lore", "College of Valour", "College of Swords", "College of Glamour"],
-    "Cleric": ["Life Domain", "Light Domain", "Trickery Domain", "War Domain", "Nature Domain", "Tempest Domain"],
-    "Druid": ["Circle of the Land", "Circle of the Moon", "Circle of Spores"],
-    "Fighter": ["Battle Master", "Champion", "Eldritch Knight"],
-    "Monk": ["Way of the Open Hand", "Way of Shadow", "Way of the Four Elements", "Drunken Master"],
-    "Paladin": ["Oath of Devotion", "Oath of the Ancients", "Oath of Vengeance", "Oathbreaker"],
-    "Ranger": ["Hunter", "Beast Master", "Gloom Stalker"],
-    "Rogue": ["Thief", "Assassin", "Arcane Trickster"],
-    "Sorcerer": ["Draconic Bloodline", "Wild Magic", "Storm Sorcery"],
-    "Warlock": ["The Fiend", "The Great Old One", "The Archfey"],
-    "Wizard": ["Abjuration", "Conjuration", "Divination", "Enchantment", "Evocation", "Illusion", "Necromancy", "Transmutation"]
+    "Barbarian": [
+        "Berserker", "Wildheart", 
+        "Wild Magic", "Path of Giants"
+        ],
+    "Bard": ["College of Lore", "College of Valour", 
+             "College of Swords", "College of Glamour"
+             ],
+    "Cleric": ["Life Domain", "Light Domain", 
+               "Trickery Domain", "War Domain", 
+               "Nature Domain", "Tempest Domain"
+               ],
+    "Druid": ["Circle of the Land", "Circle of the Moon", 
+              "Circle of Spores"
+              ],
+    "Fighter": ["Battle Master", "Champion", 
+                "Eldritch Knight"
+                ],
+    "Monk": ["Way of the Open Hand", "Way of Shadow", 
+             "Way of the Four Elements", "Drunken Master"
+             ],
+    "Paladin": ["Oath of Devotion", "Oath of the Ancients", 
+                "Oath of Vengeance", "Oathbreaker"
+                ],
+    "Ranger": ["Hunter", "Beast Master", 
+               "Gloom Stalker"
+               ],
+    "Rogue": ["Thief", "Assassin", 
+              "Arcane Trickster"
+              ],
+    "Sorcerer": ["Draconic Bloodline", "Wild Magic", 
+                 "Storm Sorcery"
+                 ],
+    "Warlock": ["The Fiend", "The Great Old One", 
+                "The Archfey"
+                ],
+    "Wizard": ["Abjuration", "Conjuration", 
+               "Divination", "Enchantment", 
+               "Evocation", "Illusion", 
+               "Necromancy", "Transmutation"
+               ]
 }
 
 BACKGROUNDS = [
